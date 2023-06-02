@@ -199,11 +199,11 @@ public class Jogo {
             venceu = labirinto(0, heroi);
 
             if (venceu == true) {
-                System.out.println("O inimigo foi derrotado");
+                System.out.println("You Win!");
                 heroi.mostrarDetalhes();
             } else {
-                System.out.println("game over");
-                System.out.println("deseja tentar de novo? S/N");
+                System.out.println("Game-0ver");
+                System.out.println("Tentar de novo? S/N");
                 System.out.print("Resposta: ");
                 resposta = scanner.next();
                 resposta = resposta.toUpperCase();
@@ -274,43 +274,44 @@ public class Jogo {
         heroiFeiticeiro.add(TiposHeroi.FEITICEIRO);
 
         //Instancias dos items e NPC's
-        PocaoHP pocaoSOS = new PocaoHP("Poção de Cura SOS", 5, tiposHeroi, 5);
-        PocaoHP pocaoCompleta = new PocaoHP("Poção de Cura Completa", 15, tiposHeroi, 20);
-        PocaoHP pocaoMenor = new PocaoHP("Poção de Cura Menor", 10, tiposHeroi, 10);
+        PocaoHP pocao1 = new PocaoHP("Poção+1", 5, tiposHeroi, 5);
+        PocaoHP pocao2 = new PocaoHP("Poção+2", 15, tiposHeroi, 10);
+        PocaoHP pocao3 = new PocaoHP("Poção+3", 10, tiposHeroi, 20);
 
-        Arma lanca = new Arma("Lança", 5, todosTiposHeroi, 20);
-        Arma adaga = new Arma("Adaga", 5, todosTiposHeroi, 20);
-        Arma cetroArcano = new Arma("Cetro Arcano", 10, todosTiposHeroi, 20);
-        Arma varinhaMagica = new Arma("Varinha Mágica", 8, heroiFeiticeiro, 2);
-        Arma livroDeFeitiço = new Arma("Livro de feitiço", 10, heroiFeiticeiro, 20);
-        Arma espadaLonga = new Arma("Espada Longa", 20, heroiCavaleiro, 20);
-        Arma arcoLongo = new Arma("Arco Longo", 20, heroiArqueiro, 20);
-        Arma besta = new Arma("Besta", 20, heroiArqueiro, 20);
-        Arma machadoDeBatalha = new Arma("Machado de batalha", 15, heroiCavaleiro, 20);
-        Arma espada = new Arma("Espada", 10, heroiCavaleiro, 20);
+        Arma cajadoMistico = new Arma("Cajado Místico", 12, heroiFeiticeiro, 25);
+        Arma adagaEnvenenada = new Arma("Adaga Envenenada", 15, todosTiposHeroi, 30);
+        Arma machadoDeBatalha = new Arma("Machado de Batalha", 18, heroiCavaleiro, 35);
+        Arma lancaDeFerro = new Arma("Lança de Ferro", 16, todosTiposHeroi, 30);
+        Arma marteloDeGuerra = new Arma("Martelo de Guerra", 20, heroiCavaleiro, 40);
+        Arma foiceDePrata = new Arma("Foice de Prata", 14, todosTiposHeroi, 25);
+        Arma chicoteFlamejante = new Arma("Chicote Flamejante", 16, heroiArqueiro, 30);
+        Arma espadaCurta = new Arma("Espada Curta", 12, todosTiposHeroi, 20);
+        Arma arcoDeOsso = new Arma("Arco de Osso", 14, heroiArqueiro, 25);
+        Arma machadinhaDeFerro = new Arma("Machadinha de Ferro", 15, todosTiposHeroi, 30);
 
-        NPC Hades = new NPC("Hades", 20000, 10000);
-        NPC Dragao = new NPC("Dragão Ancião", 60, 20);
-        NPC Necromante = new NPC("Necromante", 60, 20);
-        NPC Bruxa = new NPC("Bruxa Malévola ", 15, 5);
-        NPC Demonio = new NPC("Demônio das Sombra", 90, 30);
+        NPC morte = new NPC("Caminho errado! >:)", 8000, 9000);
+        NPC dragao = new NPC("Dragão Vermelho", 60, 20);
+        NPC lich = new NPC("Lich", 60, 20);
+        NPC josefina = new NPC("Josefina", 15, 5);
+        NPC zodd = new NPC("Zodd o Imortal", 90, 30);
 
         //Instancia do Vendedor
         Vendedor vendedor1 = new Vendedor();
 
-        vendedor1.adicionarItem(pocaoCompleta);
-        vendedor1.adicionarItem(pocaoSOS);
-        vendedor1.adicionarItem(pocaoMenor);
-        vendedor1.adicionarItem(lanca);
-        vendedor1.adicionarItem(adaga);
-        vendedor1.adicionarItem(cetroArcano);
-        vendedor1.adicionarItem(varinhaMagica);
-        vendedor1.adicionarItem(livroDeFeitiço);
-        vendedor1.adicionarItem(espadaLonga);
-        vendedor1.adicionarItem(arcoLongo);
-        vendedor1.adicionarItem(besta);
+        vendedor1.adicionarItem(pocao1);
+        vendedor1.adicionarItem(pocao2);
+        vendedor1.adicionarItem(pocao3);
+
+        vendedor1.adicionarItem(cajadoMistico);
+        vendedor1.adicionarItem(adagaEnvenenada);
         vendedor1.adicionarItem(machadoDeBatalha);
-        vendedor1.adicionarItem(espada);
+        vendedor1.adicionarItem(lancaDeFerro);
+        vendedor1.adicionarItem(marteloDeGuerra);
+        vendedor1.adicionarItem(foiceDePrata);
+        vendedor1.adicionarItem(chicoteFlamejante);
+        vendedor1.adicionarItem(espadaCurta);
+        vendedor1.adicionarItem(arcoDeOsso);
+        vendedor1.adicionarItem(machadinhaDeFerro);
 
 
         switch (op) {
@@ -318,10 +319,10 @@ public class Jogo {
                 vendedor1.imprimirInventario();
                 vendedor1.vender(heroi);
                 do {
-                    System.out.println("Agora que estás pronto e equipado para começar esta jornada só temos de escolher um caminho.");
+                    System.out.println("Escolhe o caminho com sabedoria.");
                     System.out.println("");
-                    System.out.println("1 - Vale dos mortos");
-                    System.out.println("2 - Montanha");
+                    System.out.println("1 - Vale d'morte certeira");
+                    System.out.println("2 - Montanha Ensolarada C=");
                     System.out.print("Resposta: ");
                     op = scanner.nextInt();
                 } while (op != 1 && op != 2);// Repete o loop se a opção for inválida
@@ -330,9 +331,9 @@ public class Jogo {
             case 1 -> {
                 System.out.println("");
                 System.out.println("-------------------------------------------");
-                System.out.println("Corajoso! É preciso audácia para enfrentar o Vale dos Mortos.");
-                System.out.println("Terá de enfrentar Hades, o deus das trevas. Boa sorte!");
-                p = (heroi.atacar(Hades) == heroi);  // Verifica se o herói venceu a batalha contra Hades
+                System.out.println("O Audaz heroi penetra na escuridão do vale.");
+                System.out.println("Boa sorte.. Vais precisar >:)  ");
+                p = (heroi.atacar(morte) == heroi);  // Verifica se o herói venceu a batalha contra Hades
                 if (p) {
                     heroi.usarPocao();
                     heroi.mostrarDetalhes();
@@ -353,7 +354,7 @@ public class Jogo {
                 System.out.println("");
                 System.out.println("Espero que estejas preparado para atravessar a Montanha do Dragão.");
                 System.out.println("");
-                p = (heroi.atacar(Dragao) == heroi);
+                p = (heroi.atacar(dragao) == heroi);
                 if (p) {
                     heroi.usarPocao();
                     heroi.mostrarDetalhes();
@@ -388,7 +389,7 @@ public class Jogo {
                 System.out.println("");
                 System.out.println("Ainda bem que chegamos a uma aldeia bem pitoresca onde poderemos descansar");
                 System.out.println("Foi adicionado ao teu inventário uma Poção para recuperares a energia.");
-                heroi.adicionarPocao(pocaoSOS);
+                heroi.adicionarPocao(pocao1);
                 System.out.println("Chegamos a uma encruzilhada: ");
                 System.out.println("Por onde vamos seguir");
                 System.out.println("5 - Esquerda");
@@ -422,7 +423,7 @@ public class Jogo {
                 System.out.println("");
                 System.out.println("Espero que gostes da vista porque a tua alma ficará aprisionada aqui para sempre!");
                 System.out.println("HA HA HA HA HA!");
-                p = (heroi.atacar(Necromante) == heroi);
+                p = (heroi.atacar(lich) == heroi);
                 if (p) {
                     heroi.usarPocao();
                     heroi.mostrarDetalhes();
@@ -472,7 +473,7 @@ public class Jogo {
                 System.out.println("Oh oh... Falei cedo demais!");
                 System.out.println("");
                 System.out.println("BRUXA: Ha ha ha ha. És meu!!!");
-                p = (heroi.atacar(Bruxa) == heroi);
+                p = (heroi.atacar(josefina) == heroi);
                 if (p) {
                     heroi.usarPocao();
                     heroi.mostrarDetalhes();
@@ -492,7 +493,7 @@ public class Jogo {
                 heroi.usarPocao();
                 System.out.println("O que é este barulho??");
                 System.out.println("");
-                p = (heroi.atacar(Demonio) == heroi);
+                p = (heroi.atacar(zodd) == heroi);
                 if (p) {
                     heroi.mostrarDetalhes();
                     reset("Conseguimos!!! Derrotamos o demónio e recuperamos a Pedra das Trevas!!");
