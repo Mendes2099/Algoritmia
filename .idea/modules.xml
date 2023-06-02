@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/Soluções do Vitor/JogoGalo/JogoGalo.iml" filepath="$PROJECT_DIR$/Soluções do Vitor/JogoGalo/JogoGalo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Singleton/Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Teste_Design/Teste_Design.iml" filepath="$PROJECT_DIR$/Teste_Design/Teste_Design.iml" />
     </modules>
   </component>
 </project>
