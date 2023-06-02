@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Algo.iml" filepath="$PROJECT_DIR$/.idea/Algo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ficha09/Ficha09.iml" filepath="$PROJECT_DIR$/Ficha09/Ficha09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ficha10/Ficha10.iml" filepath="$PROJECT_DIR$/Ficha10/Ficha10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ficha11/Ficha11.iml" filepath="$PROJECT_DIR$/Ficha11/Ficha11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Soluções do Vitor/Ficha_01/Ficha_01.iml" filepath="$PROJECT_DIR$/Soluções do Vitor/Ficha_01/Ficha_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Soluções do Vitor/Ficha_02/Ficha_02.iml" filepath="$PROJECT_DIR$/Soluções do Vitor/Ficha_02/Ficha_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Soluções do Vitor/Ficha_03/Ficha_03.iml" filepath="$PROJECT_DIR$/Soluções do Vitor/Ficha_03/Ficha_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Soluções do Vitor/Ficha_04/Ficha_04.iml" filepath="$PROJECT_DIR$/Soluções do Vitor/Ficha_04/Ficha_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Soluções do Vitor/Ficha_05/Ficha_05.iml" filepath="$PROJECT_DIR$/Soluções do Vitor/Ficha_05/Ficha_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Soluções do Vitor/Ficha_06/Ficha_06.iml" filepath="$PROJECT_DIR$/Soluções do Vitor/Ficha_06/Ficha_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Soluções do Vitor/Ficha_07/Ficha_07.iml" filepath="$PROJECT_DIR$/Soluções do Vitor/Ficha_07/Ficha_07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Soluções do Vitor/Ficha_08/Ficha_08.iml" filepath="$PROJECT_DIR$/Soluções do Vitor/Ficha_08/Ficha_08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Soluções do Vitor/Ficha_09/Ficha_09.iml" filepath="$PROJECT_DIR$/Soluções do Vitor/Ficha_09/Ficha_09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Soluções do Vitor/Ficha_10/Ficha_10.iml" filepath="$PROJECT_DIR$/Soluções do Vitor/Ficha_10/Ficha_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Soluções do Vitor/Ficha_11/Ficha_11.iml" filepath="$PROJECT_DIR$/Soluções do Vitor/Ficha_11/Ficha_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Soluções do Vitor/JogoGalo/JogoGalo.iml" filepath="$PROJECT_DIR$/Soluções do Vitor/JogoGalo/JogoGalo.iml" />
+    </modules>
+  </component>
+</project>
