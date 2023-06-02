@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/Ficha_Factory/Ficha_Factory.iml" filepath="$PROJECT_DIR$/Ficha_Factory/Ficha_Factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ficha_Interfaces/Ficha_Interfaces.iml" filepath="$PROJECT_DIR$/Ficha_Interfaces/Ficha_Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ficha_Singleton/Ficha_Singleton.iml" filepath="$PROJECT_DIR$/Ficha_Singleton/Ficha_Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Joao_Mendes/Joao_Mendes.iml" filepath="$PROJECT_DIR$/Joao_Mendes/Joao_Mendes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Soluções do Vitor/JogoGalo/JogoGalo.iml" filepath="$PROJECT_DIR$/Soluções do Vitor/JogoGalo/JogoGalo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Teste_Design/Teste_Design.iml" filepath="$PROJECT_DIR$/Teste_Design/Teste_Design.iml" />
     </modules>
