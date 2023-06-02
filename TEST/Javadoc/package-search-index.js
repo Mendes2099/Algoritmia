@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"TrabalhoPratico.Entidades"},{"l":"TrabalhoPratico.Itens"},{"l":"TrabalhoPratico.Jogo"}];updateSearchResults();
