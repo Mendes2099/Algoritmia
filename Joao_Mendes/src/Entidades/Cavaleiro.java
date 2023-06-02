@@ -41,7 +41,7 @@ public class Cavaleiro extends Heroi {
         if (existeArma == true) {
             // O combate continua enquanto o herói e o NPC tiverem vida
             while (this.getVida() > 0 && npc.getVida() > 0) {
-                // O herói sofre dano do NPC (80% da força do NPC por causa da armadura do cavaleiro)
+                // O herói sofre dano do NPC (80% da força do NPC para simular a armadura do cavaleiro)
                 int danoInimigo = (int) (npc.getForca() * 0.8);
                 this.subtrairVida(danoInimigo);
                 System.out.println("--------------------");

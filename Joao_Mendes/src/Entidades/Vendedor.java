@@ -70,7 +70,7 @@ public class Vendedor {
     /**
      * Realiza a venda de itens para um herói.
      *
-     * @param heroi O herói que realizará a compra.
+     * @param heroi O herói que ira realizar a compra.
      */
     public void vender(Heroi heroi) {
 
@@ -83,8 +83,7 @@ public class Vendedor {
         while (continuarCompra) {
 
             // Solicita ao user que escolha um item para comprar ou siga em frente
-            System.out.println("Escreve o número do item que deseja ou zero para seguir em frente:");
-            System.out.print("Resposta: ");
+            System.out.print("Escreve o número do item que deseja ou zero para seguir em frente: ");
             Scanner scanner = new Scanner(System.in);
             int index = scanner.nextInt();
 
@@ -140,7 +139,6 @@ public class Vendedor {
                             System.out.println("--------------------");
                         }
                     } else {
-                        // Caso o herói não seja permitido a usar o item
                         System.out.println("");
                         System.out.println("--------------------");
                         System.out.println("O vendedor encontra um item estranho.. Não o reconheces, e tampouco o consegues manusear..");
@@ -150,13 +148,11 @@ public class Vendedor {
                     heroi.mostrarDetalhes();
                     System.out.print("");
                 } else {
-                    // Caso o item já tenha sido comprado anteriormente
                     System.out.println("--------------------");
                     System.out.println("Esse item já foi comprado. Escolha outro item.");
                     System.out.println("--------------------");
                 }
             } else {
-                // Caso o índice escolhido seja inválido
                 System.out.println("--------------------");
                 System.out.println("Índice inválido. Por favor, escolha um índice válido.");
                 System.out.println("--------------------");

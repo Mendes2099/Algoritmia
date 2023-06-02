@@ -199,7 +199,7 @@ public class Jogo {
             venceu = labirinto(0, heroi);
 
             if (venceu == true) {
-                System.out.println("You Win!");
+                System.out.println("Game-0ver");
                 heroi.mostrarDetalhes();
             } else {
                 System.out.println("Game-0ver");
@@ -291,7 +291,7 @@ public class Jogo {
 
         NPC morte = new NPC("Caminho errado! >:)", 8000, 9000);
         NPC dragao = new NPC("Dragão Vermelho", 60, 20);
-        NPC lich = new NPC("Lich", 60, 20);
+        NPC peixe = new NPC("Peixe maluco", 60, 20);
         NPC josefina = new NPC("Josefina", 15, 5);
         NPC zodd = new NPC("Zodd o Imortal", 90, 30);
 
@@ -321,7 +321,7 @@ public class Jogo {
                 do {
                     System.out.println("Escolhe o caminho com sabedoria.");
                     System.out.println("");
-                    System.out.println("1 - Vale d'morte certeira");
+                    System.out.println("1 - Vale d'morte certeira >:)");
                     System.out.println("2 - Montanha Ensolarada C=");
                     System.out.print("Resposta: ");
                     op = scanner.nextInt();
@@ -333,26 +333,26 @@ public class Jogo {
                 System.out.println("-------------------------------------------");
                 System.out.println("O Audaz heroi penetra na escuridão do vale.");
                 System.out.println("Boa sorte.. Vais precisar >:)  ");
-                p = (heroi.atacar(morte) == heroi);  // Verifica se o herói venceu a batalha contra Hades
+                p = (heroi.atacar(morte) == heroi);  // Verifica se o herói venceu a batalha contra a morte
                 if (p) {
                     heroi.usarPocao();
                     heroi.mostrarDetalhes();
                     System.out.println("Escolha uma opção: ");
-                    System.out.println("2 - Montanha");
-                    System.out.println("3 - Floresta");
+                    System.out.println("2 - Montanha Ensolarada C=");
+                    System.out.println("3 - Deserto apaziguador C=");
                     System.out.print("Resposta: ");
                     do {
                         op = scanner.nextInt();
                     } while (op != 2 && op != 3);
                     labirinto(op, heroi);
                 } else {
-                    reset("Game Over!!!");  // Implementação do método reset
+                    reset("Game 0ver");  // Exemplo da Implementação do método reset
                 }
             }
             case 2 -> {
                 System.out.println("-------------------------------------------");
                 System.out.println("");
-                System.out.println("Espero que estejas preparado para atravessar a Montanha do Dragão.");
+                System.out.println("Montanha do Dragão Escarlate!");
                 System.out.println("");
                 p = (heroi.atacar(dragao) == heroi);
                 if (p) {
@@ -360,40 +360,40 @@ public class Jogo {
                     heroi.mostrarDetalhes();
                     labirinto(4, heroi);
                 } else {
-                    reset("Game Over!!!");
+                    reset("Game 0ver");
                 }
             }
             case 3 -> {
                 System.out.println("");
                 System.out.println("-------------------------------------------");
-                System.out.println("Sempre a avançar!");
-                System.out.println("Vamos entrar na floresta encantada!");
-                System.out.println("Cuidado com os contrabandistas e vendedores de banha da cobra!");
+                System.out.println("");
+                System.out.println("O nosso Heroi chega agora no Deserto do apaziguamento!");
+                System.out.println("");
                 heroi.mostrarDetalhes();
                 System.out.println("");
                 System.out.println("-------------------------------------------");
-                System.out.println("VENDEDOR: 'Olá caro amigo viajante!'");
-                System.out.println("Interessado em algum dos meus itens?");
+                System.out.println("O vendedor te encontra mesteriosamente mais uma vez. E denovo te mostra as suas bujigangas.");
                 System.out.println("-------------------------------------------");
                 System.out.println("");
                 vendedor1.imprimirInventario();
-                System.out.println("Insira o número correspondente ou 0 para avançar sem comprar)");
-                System.out.print("Resposta: ");
+                System.out.print("Insira o número correspondente ou zero para seguir em frente: ");
                 vendedor1.vender(heroi);
                 labirinto(5, heroi);
             }
             case 4 -> {
-                System.out.println("");
                 System.out.println("-------------------------------------------");
-                System.out.println("Que grande batalha contra o Dragão!!");
                 System.out.println("");
-                System.out.println("Ainda bem que chegamos a uma aldeia bem pitoresca onde poderemos descansar");
-                System.out.println("Foi adicionado ao teu inventário uma Poção para recuperares a energia.");
+                System.out.println("Chegas agora a uma aldeia..");
+                System.out.println("");
+                System.out.println("Visitas a capela e apanhas o abade desmaiado no chão, com uma garrafa de tinto na mão.");
+                System.out.println("Uma garrafa de tinto foi adicionada ao teu inventário para recuperares HP.");
+                System.out.println("");
                 heroi.adicionarPocao(pocao1);
-                System.out.println("Chegamos a uma encruzilhada: ");
-                System.out.println("Por onde vamos seguir");
+                System.out.println("Foges rapidamente da aldeia e chegas numa encruzilhada.");
+                System.out.println("");
+                System.out.println("Por onde vais?");
                 System.out.println("5 - Esquerda");
-                System.out.println("3 - Direita");
+                System.out.println("3 - Direita C=");
                 System.out.print("Resposta: ");
                 do {
                     op = scanner.nextInt();
@@ -403,10 +403,10 @@ public class Jogo {
             case 5 -> {
                 System.out.println("");
                 System.out.println("-------------------------------------------");
-                System.out.println("Decisões... Decisões");
+                System.out.println("Um rio flui á tua frente..");
                 System.out.println("Escolha uma opção: ");
-                System.out.println("6 - Atravessar o rio a nado?");
-                System.out.println("7 - Atravessar uma ponte em muito mau estado?");
+                System.out.println("6 - Atravessar o rio a nado");
+                System.out.println("7 - Cruzar uma ponte em muito mau estado");
                 System.out.print("Resposta: ");
                 do {
                     op = scanner.nextInt();
@@ -416,21 +416,19 @@ public class Jogo {
             case 6 -> {
                 System.out.println("");
                 System.out.println("-------------------------------------------");
-                System.out.println("O rio está perigoso!");
                 System.out.println("");
-                System.out.println("Mas há perigos maiores do que a corrente...");
-                System.out.println("NECROMANTE: Olá, Olá! Quem temos aqui?");
+                System.out.println("Rio do peixe Maluco!");
+                System.out.println("Ele te sacode de volta á margem e começa a fight!");
                 System.out.println("");
-                System.out.println("Espero que gostes da vista porque a tua alma ficará aprisionada aqui para sempre!");
-                System.out.println("HA HA HA HA HA!");
-                p = (heroi.atacar(lich) == heroi);
+                p = (heroi.atacar(peixe) == heroi);
                 if (p) {
                     heroi.usarPocao();
                     heroi.mostrarDetalhes();
 
+                    System.out.println("Por onde vais?");
                     System.out.println("Escolha uma opção: ");
-                    System.out.println("7 - Atravessar uma ponte em muito mau estado?");
-                    System.out.println("11 - Pedir boleia ao barqueiro");
+                    System.out.println("7 - Cruzar aquela ponte de antes");
+                    System.out.println("11 - Pedir boleia ao Caronte");
                     System.out.print("Resposta: ");
 
                     do {
@@ -439,26 +437,22 @@ public class Jogo {
 
                     labirinto(op, heroi);
                 } else {
-                    reset("Game Over!!!");
+                    reset("Game 0ver");
                 }
             }
             case 7 -> {
                 System.out.println("");
                 System.out.println("-------------------------------------------");
-                System.out.println("Esta ponte está muito instável.");
-                System.out.println("OOOPPS!!! Cuidado!!!");
+                System.out.println("Esta ponte está lastimável. A certo ponto ela cede e mergulhas nas águas.");
                 System.out.println("");
-                System.out.println("SPLASSSHHH!!");
-                System.out.println("");
-                System.out.println("Conseguiste chegar até à margem mas bates-te a cabeça e perdes-te muito.. HP");
+                System.out.println("Consegues chegar à margem, mas bates-te a cabeça e perdes-te muito..HP.");
                 heroi.setVida(heroi.getVida() - 15);
                 heroi.mostrarDetalhes();
                 heroi.usarPocao();
-                System.out.println("E agora? Seguimos por um atalho até à Gruta das Sombras?");
-                System.out.println("Ou vamos pelo caminho da margem?");
+                System.out.println("Escolha uma opção: ");
                 System.out.println("");
-                System.out.println("8 - Caminho da margem");
-                System.out.println("9 - Atalho para a Gruta das Sombras");
+                System.out.println("8 - Seguir pela margem");
+                System.out.println("9 - Atalho diretamente para o palácio de Zodd");
                 System.out.print("Resposta: ");
                 do {
                     op = scanner.nextInt();
@@ -468,27 +462,22 @@ public class Jogo {
             case 8 -> {
                 System.out.println("");
                 System.out.println("-------------------------------------------");
-                System.out.println("Que caminho tão bonito e calmo!");
                 System.out.println("");
-                System.out.println("Oh oh... Falei cedo demais!");
+                System.out.println("Margem da Bruxa Josefina!");
                 System.out.println("");
-                System.out.println("BRUXA: Ha ha ha ha. És meu!!!");
                 p = (heroi.atacar(josefina) == heroi);
                 if (p) {
                     heroi.usarPocao();
                     heroi.mostrarDetalhes();
                     labirinto(10, heroi);
                 } else {
-                    reset("Game Over!!!");
+                    reset("Game 0ver");
                 }
             }
             case 9 -> {
                 System.out.println("");
                 System.out.println("-------------------------------------------");
-                System.out.println("Chegamos finalmente à Gruta das Sombras.");
-                System.out.println("Julga-se que é aqui que está escondida a Pedra das Trevas...");
-                System.out.println("");
-                System.out.println("Mas para a recuperarmos temos de enfrentar quem a roubou... E não vai ser pêra doce!");
+                System.out.println("A aventura chega perto do seu fim. Pois chegas no temivél castelo Nosferatu");
                 System.out.println("");
                 heroi.usarPocao();
                 System.out.println("O que é este barulho??");
@@ -496,21 +485,18 @@ public class Jogo {
                 p = (heroi.atacar(zodd) == heroi);
                 if (p) {
                     heroi.mostrarDetalhes();
-                    reset("Conseguimos!!! Derrotamos o demónio e recuperamos a Pedra das Trevas!!");
+                    reset("O imortal já não o é mais! Concluiu o seu destino!!!");
                 } else {
-                    reset("Game Over!!!");
+                    reset("Game 0ver");
                 }
             }
             case 10 -> {
                 System.out.println("");
                 System.out.println("-------------------------------------------");
-                System.out.println("UFF... Que medo! Que embuscada!");
-                System.out.println("Obviamente que o nosso herói conseguiu desenvencilhar-se da Bruxa com relativa facilidade!");
+                System.out.println("O peixe se assa com facilidade e é bem saboroso!");
                 System.out.println("");
-                System.out.println("Mas agora temos de seguir caminho. Não sem antes passarmos no vendedor novamente!");
+                System.out.println("Seguindo em frente. Mais uma vez. Ele, o nosso caro vendedor..");
                 heroi.mostrarDetalhes();
-                System.out.println("VENDEDOR: Olá caro amigo viajante!");
-                System.out.println("Interessado em algum dos meus itens?");
                 System.out.println("");
                 vendedor1.imprimirInventario();
                 vendedor1.vender(heroi);
@@ -519,11 +505,10 @@ public class Jogo {
             case 11 -> {
                 System.out.println("");
                 System.out.println("-------------------------------------------");
-                System.out.println("Decisão sensata! Um barqueiro simpático e no cais temos um vendedor!");
-                System.out.println("Tudo o que precisamos para seguir para a Gruta das Sombras!");
+                System.out.println("O Caronte é um esquelo que rema com o seu próprio fémur.Já no cais consegues avistar ao longe um rosto fasmiliar ao longe.");
+                System.out.println("");
                 heroi.mostrarDetalhes();
-                System.out.println("VENDEDOR: Olá caro amigo viajante!");
-                System.out.println("Interessado em algum dos meus itens?");
+                System.out.println("");
                 System.out.println("");
                 vendedor1.imprimirInventario();
                 vendedor1.vender(heroi);
@@ -538,7 +523,7 @@ public class Jogo {
     //*------------------------------------------ Instancias das Classes ------------------------------------------
 
     /**
-     * Cria um novo cavaleiro com base nas informações fornecidas pelo usuário.
+     * Cria um cavaleiro com base nas informações fornecidas pelo user.
      *
      * @return o cavaleiro criado
      */
@@ -548,12 +533,12 @@ public class Jogo {
         System.out.println("Qual é o nome do Cavaleiro?");
         System.out.print("Resposta: ");
         String nome = scanner.nextLine();
-        // Cria um novo Cavaleiro com o nome fornecido e valores iniciais para os atributos
+        // Cria um Cavaleiro com o nome fornecido e valores iniciais para os atributos
         return new Cavaleiro(nome, 0, 0, 0, 0);
     }
 
     /**
-     * Cria um novo feiticeiro com base nas informações fornecidas pelo usuário.
+     * Cria um feiticeiro com base nas informações fornecidas pelo user.
      *
      * @return o feiticeiro criado
      */
@@ -563,12 +548,12 @@ public class Jogo {
         System.out.println("Qual é o nome do Feiticeiro?");
         System.out.print("Resposta: ");
         String nome = scanner.nextLine();
-        // Cria um novo Feiticeiro com o nome fornecido e valores iniciais para os atributos
+        // Cria um Feiticeiro com o nome fornecido e valores iniciais para os atributos
         return new Feiticeiro(nome, 0, 0, 0, 0);
     }
 
     /**
-     * Cria um novo arqueiro com base nas informações fornecidas pelo usuário.
+     * Cria um arqueiro com base nas informações fornecidas pelo user.
      *
      * @return o arqueiro criado
      */
@@ -578,7 +563,7 @@ public class Jogo {
         System.out.println("Qual é o nome do Arqueiro?");
         System.out.print("Resposta: ");
         String nome = scanner.nextLine();
-        // Cria um novo Arqueiro com o nome fornecido e valores iniciais para os atributos
+        // Cria um Arqueiro com o nome fornecido e valores iniciais para os atributos
         return new Arqueiro(nome, 0, 0, 0, 0);
     }
 }

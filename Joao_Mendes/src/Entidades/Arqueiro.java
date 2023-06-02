@@ -42,7 +42,7 @@ public class Arqueiro extends Heroi {
         if (existeArma == true) {
             // O combate continua enquanto o herói e o NPC tiverem vida
             while (this.getVida() > 0 && npc.getVida() > 0) {
-                // Calcula o dano causado pelo herói, considerando a sua força e o ataque da arma
+                // Calcula o dmg causado pelo herói, considerando a sua força e o ataque da arma dele
                 int danoHeroi = this.getForca() + this.getArma().getAtaque();
                 npc.setVida(npc.getVida() - danoHeroi);
                 System.out.println(npc.getNome() + " : " + npc.getVida());

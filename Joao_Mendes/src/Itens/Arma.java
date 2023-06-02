@@ -31,15 +31,6 @@ public class Arma extends ItemHeroi {
     }
 
     /**
-     * Define o valor de ataque da arma.
-     *
-     * @param ataque O valor de ataque da arma.
-     */
-    public void setAtaque(int ataque) {
-        this.ataque = ataque;
-    }
-
-    /**
      * Mostra os detalhes da arma, incluindo nome, preço, tipos de herói que podem usá-la e valor de ataque.
      */
     @Override

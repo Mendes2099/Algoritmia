@@ -1,7 +1,7 @@
 package Entidades;
 
 /**
- * Classe que representa um NPC (Personagem Não-Jogador) no jogo.
+ * Classe que representa um NPC no jogo.
  */
 public class NPC extends Entidade {
 

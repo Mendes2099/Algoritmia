@@ -63,7 +63,7 @@ public abstract class Heroi extends Entidade {
      */
     public void usarPocao() {
         if (this.pocoes.size() > 0) {
-            // Declaração da lista de poções disponíveis
+            // Listagem das poções disponíveis
             Scanner scanner = new Scanner(System.in);
             int i = 0;
             System.out.print("\n----------------------\n");
@@ -74,7 +74,7 @@ public abstract class Heroi extends Entidade {
 
             do {
                 System.out.print("");
-                System.out.println("Diz-me a poção que queres usar ou zero para não usar nenhuma");
+                System.out.println("Usar poção? (Insere o numero correspondente ou zero para não usar)");
                 System.out.print("Resposta: ");
                 i = scanner.nextInt();
             } while (i < 0 || i > pocoes.size());
@@ -92,20 +92,6 @@ public abstract class Heroi extends Entidade {
         }
     }
 
-    /**
-     * Método que busca uma poção pelo nome.
-     *
-     * @param nomePocao O nome da poção a ser buscada.
-     * @return A poção encontrada ou null se não encontrada.
-     */
-    private PocaoHP buscarPocaoPorNome(String nomePocao) {
-        for (PocaoHP pocao : pocoes) {
-            if (pocao.getNome().equals(nomePocao)) {
-                return pocao;
-            }
-        }
-        return null;
-    }
 
     /**
      * Método que incrementa a vida do herói.
@@ -159,14 +145,6 @@ public abstract class Heroi extends Entidade {
         return nivel;
     }
 
-    /**
-     * Define o nível do herói.
-     *
-     * @param nivel O novo nível do herói.
-     */
-    public void setNivel(int nivel) {
-        this.nivel = nivel;
-    }
 
     /**
      * Obtém a quantidade de ouro do herói.
@@ -211,14 +189,5 @@ public abstract class Heroi extends Entidade {
      */
     public ArrayList<PocaoHP> getPocoes() {
         return pocoes;
-    }
-
-    /**
-     * Define a lista de poções do herói.
-     *
-     * @param pocoes A nova lista de poções do herói.
-     */
-    public void setPocoes(ArrayList<PocaoHP> pocoes) {
-        this.pocoes = pocoes;
     }
 }
