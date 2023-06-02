@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Algo.iml" filepath="$PROJECT_DIR$/.idea/Algo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Factory/Factory.iml" filepath="$PROJECT_DIR$/Factory/Factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ficha09/Ficha09.iml" filepath="$PROJECT_DIR$/Ficha09/Ficha09.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ficha10/Ficha10.iml" filepath="$PROJECT_DIR$/Ficha10/Ficha10.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ficha11/Ficha11.iml" filepath="$PROJECT_DIR$/Ficha11/Ficha11.iml" />
@@ -18,9 +17,10 @@
       <module fileurl="file://$PROJECT_DIR$/Soluções do Vitor/Ficha_09/Ficha_09.iml" filepath="$PROJECT_DIR$/Soluções do Vitor/Ficha_09/Ficha_09.iml" />
       <module fileurl="file://$PROJECT_DIR$/Soluções do Vitor/Ficha_10/Ficha_10.iml" filepath="$PROJECT_DIR$/Soluções do Vitor/Ficha_10/Ficha_10.iml" />
       <module fileurl="file://$PROJECT_DIR$/Soluções do Vitor/Ficha_11/Ficha_11.iml" filepath="$PROJECT_DIR$/Soluções do Vitor/Ficha_11/Ficha_11.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ficha_Factory/Ficha_Factory.iml" filepath="$PROJECT_DIR$/Ficha_Factory/Ficha_Factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ficha_Interfaces/Ficha_Interfaces.iml" filepath="$PROJECT_DIR$/Ficha_Interfaces/Ficha_Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ficha_Singleton/Ficha_Singleton.iml" filepath="$PROJECT_DIR$/Ficha_Singleton/Ficha_Singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/Soluções do Vitor/JogoGalo/JogoGalo.iml" filepath="$PROJECT_DIR$/Soluções do Vitor/JogoGalo/JogoGalo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Singleton/Singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/Teste_Design/Teste_Design.iml" filepath="$PROJECT_DIR$/Teste_Design/Teste_Design.iml" />
     </modules>
   </component>
