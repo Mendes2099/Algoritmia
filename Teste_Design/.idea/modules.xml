@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ficha_Factory1/Ficha_Factory1.iml" filepath="$PROJECT_DIR$/Ficha_Factory1/Ficha_Factory1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ficha_Singleton/Ficha_Singleton.iml" filepath="$PROJECT_DIR$/Ficha_Singleton/Ficha_Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ficha_Strategy/Ficha_Strategy.iml" filepath="$PROJECT_DIR$/Ficha_Strategy/Ficha_Strategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Teste_Design.iml" filepath="$PROJECT_DIR$/Teste_Design.iml" />
+    </modules>
+  </component>
+</project>

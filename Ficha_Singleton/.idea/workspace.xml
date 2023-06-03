@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d263eb87-f707-49cd-95fc-813808e92694" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Teste_Design/Ficha_Factory1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Teste_Design/Ficha_Factory1/Ficha_Factory1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Teste_Design/Ficha_Factory1/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Teste_Design/Ficha_Singleton/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Teste_Design/Ficha_Singleton/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Teste_Design/Ficha_Singleton/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Teste_Design/Ficha_Singleton/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Teste_Design/Ficha_Singleton/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Teste_Design/Ficha_Singleton/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Teste_Design/Ficha_Singleton/04 - Ficha Prática Singleton - Design Patterns.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Teste_Design/Ficha_Singleton/Ficha_Singleton.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Teste_Design/Ficha_Singleton/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Teste_Design/Ficha_Strategy/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Teste_Design/Ficha_Strategy/Ficha_Strategy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Teste_Design/Ficha_Strategy/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2QhavgnCk5FCVxlIOxdvjCcYh8z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/User/OneDrive - IEFP Formação/Desktop/Code/CESAE/Algoritmias/Ficha_Singleton",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d263eb87-f707-49cd-95fc-813808e92694" name="Changes" comment="" />
+      <created>1685808498794</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685808498794</updated>
+      <workItem from="1685808499868" duration="339000" />
+      <workItem from="1685811130416" duration="625000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

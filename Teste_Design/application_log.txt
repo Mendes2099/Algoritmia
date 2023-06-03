@@ -1,0 +1,3 @@
+Mensagem de log 1
+Mensagem de log 2
+Porra hahaha
