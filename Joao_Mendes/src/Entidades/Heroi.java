@@ -23,7 +23,7 @@ public abstract class Heroi extends Entidade {
      * @param vida  A quantidade de vida do herói.
      * @param forca A força do herói.
      * @param nivel O nível do herói.
-     * @param ouro  A quantidade de ouro do herói.
+     * @param ouro  A quantidade de ouro do herói. (Também chamado de GP)
      */
     public Heroi(String nome, int vida, int forca, int nivel, int ouro) {
         super(nome, vida, forca);
@@ -36,7 +36,7 @@ public abstract class Heroi extends Entidade {
      * Método para confrontar o NPC.
      *
      * @param npc O NPC a ser confrontado.
-     * @return A entidade a ser atacada.
+     * @return A entidade (NPC) a ser atacada.
      */
     public abstract Entidade atacar(NPC npc);
 

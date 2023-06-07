@@ -14,7 +14,7 @@ public abstract class ItemHeroi {
      * Construtor da classe ItemHeroi.
      *
      * @param nome       O nome do item.
-     * @param preco      O preço do item em GP.
+     * @param preco      O preço do item (em GP).
      * @param tiposHeroi Os tipos de herói que podem usar o item.
      */
     public ItemHeroi(String nome, int preco, ArrayList<TiposHeroi> tiposHeroi) {
@@ -47,18 +47,18 @@ public abstract class ItemHeroi {
     }
 
     /**
-     * Retorna o preço do item em GP.
+     * Retorna o preço do item (em GP).
      *
-     * @return O preço do item em GP.
+     * @return O preço do item (em GP).
      */
     public int getPreco() {
         return preco;
     }
 
     /**
-     * Define o preço do item em GP.
+     * Define o preço do item (em GP).
      *
-     * @param preco O preço do item em GP.
+     * @param preco O preço do item (em GP).
      */
     public void setPreco(int preco) {
         this.preco = preco;

@@ -14,7 +14,7 @@ public class Cavaleiro extends Heroi {
      * @param vida  A quantidade de vida do cavaleiro.
      * @param forca A força do cavaleiro.
      * @param nivel O nível do cavaleiro.
-     * @param ouro  A quantidade de ouro do cavaleiro.
+     * @param ouro  A quantidade de ouro do cavaleiro. (Também chamado de GP)
      */
     public Cavaleiro(String nome, int vida, int forca, int nivel, int ouro) {
         super(nome, vida, forca, nivel, ouro);

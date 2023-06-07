@@ -16,7 +16,7 @@ public class PocaoHP extends ItemHeroi {
      * @param nome       O nome da poção.
      * @param preco      O preço da poção em GP.
      * @param tiposHeroi Os tipos de herói que podem usar a poção.
-     * @param curar      A quantidade de cura proporcionada pela poção.
+     * @param curar      A quantidade de cura proporcionada pela poção (Em HP).
      */
     public PocaoHP(String nome, int preco, ArrayList<TiposHeroi> tiposHeroi, int curar) {
         super(nome, preco, tiposHeroi);
@@ -36,7 +36,7 @@ public class PocaoHP extends ItemHeroi {
     /**
      * Retorna a quantidade de cura proporcionada pela poção.
      *
-     * @return A quantidade de cura proporcionada pela poção.
+     * @return A quantidade de cura proporcionada pela poção (Em HP).
      */
     public int getCurar() {
         return curar;

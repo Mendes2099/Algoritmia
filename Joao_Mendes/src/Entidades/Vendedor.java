@@ -24,7 +24,7 @@ public class Vendedor {
     }
 
     /**
-     * Adiciona um item ao inventário do vendedor.
+     * Adiciona um item á array list (inventário) do vendedor.
      *
      * @param item O item a ser adicionado.
      */
@@ -50,7 +50,7 @@ public class Vendedor {
     }
 
     /**
-     * Retorna o inventário do vendedor.
+     * Retorna a array list (inventário) do vendedor.
      *
      * @return O inventário do vendedor.
      */
@@ -70,7 +70,7 @@ public class Vendedor {
     /**
      * Realiza a venda de itens para um herói.
      *
-     * @param heroi O herói que ira realizar a compra.
+     * @param heroi O herói que ira fazer a compra.
      */
     public void vender(Heroi heroi) {
 

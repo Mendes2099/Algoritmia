@@ -31,7 +31,7 @@ public class Arma extends ItemHeroi {
     }
 
     /**
-     * Mostra os detalhes da arma, incluindo nome, preço, tipos de herói que podem usá-la e valor de ataque.
+     * Mostra os detalhes da arma, incluindo nome, preço (em GP), tipos de herói que podem usá-la e valor de ataque (em DMG).
      */
     @Override
     public void mostrarDetalhes() {

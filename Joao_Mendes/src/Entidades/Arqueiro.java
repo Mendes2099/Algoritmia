@@ -14,7 +14,7 @@ public class Arqueiro extends Heroi {
      * @param vida  A quantidade de vida do arqueiro.
      * @param forca A força do arqueiro.
      * @param nivel O nível do arqueiro.
-     * @param ouro  A quantidade de ouro do arqueiro.
+     * @param ouro  A quantidade de ouro do arqueiro. (Também chamado de GP)
      */
     public Arqueiro(String nome, int vida, int forca, int nivel, int ouro) {
         super(nome, vida, forca, nivel, ouro);

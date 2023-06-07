@@ -14,7 +14,7 @@ public class Feiticeiro extends Heroi {
      * @param vida  A quantidade de vida do feiticeiro.
      * @param forca A força do feiticeiro.
      * @param nivel O nível do feiticeiro.
-     * @param ouro  A quantidade de ouro do feiticeiro.
+     * @param ouro  A quantidade de ouro do feiticeiro. (Também chamado de GP)
      */
     public Feiticeiro(String nome, int vida, int forca, int nivel, int ouro) {
         super(nome, vida, forca, nivel, ouro);
