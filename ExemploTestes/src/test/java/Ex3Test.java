@@ -1,10 +1,8 @@
-//import Ex1.ClassName;
+//import Ex3Test.ClassName;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-public class Ex1 {
+public class Ex3Test {
 
     @BeforeEach
     public void setUp(){
