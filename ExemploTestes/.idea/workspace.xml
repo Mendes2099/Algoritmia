@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="836d3fdb-9c39-43d2-9604-40f3583c4a22" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/Ex7Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex7Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ex1/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ex1/Ex1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex3Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,14 +66,28 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/softdev/Desktop/Soluções do Vitor/Ficha_JUnit",
+    "last_opened_file_path": "C:/Users/User/OneDrive - IEFP Formação/Desktop/Code/CESAE/Algoritmias/ExemploTestes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\OneDrive - IEFP Formação\Desktop\Code\CESAE\Algoritmias\ExemploTestes\src\test\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Ex3" />
+      <recent name="Ex1" />
+      <recent name="Ex2" />
+    </key>
+  </component>
   <component name="RunManager" selected="Gradle.Ex7Test">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex1.Calculator" />
@@ -180,6 +198,8 @@
       <workItem from="1686150975403" duration="1200000" />
       <workItem from="1686557510257" duration="48000" />
       <workItem from="1686563874700" duration="4805000" />
+      <workItem from="1686875358483" duration="4384000" />
+      <workItem from="1686928548352" duration="392000" />
     </task>
     <servers />
   </component>
@@ -190,10 +210,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ExemploTestes$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1686871437206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ExemploTestes$Ex7Test.ic" NAME="Ex7Test Coverage Results" MODIFIED="1686567361227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ExemploTestes$Calculator.ic" NAME="Calculator Coverage Results" MODIFIED="1686052511363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/ExemploTestes$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1686151229217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/ExemploTestes$Ex7Test.ic" NAME="Ex7Test Coverage Results" MODIFIED="1686567361227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
